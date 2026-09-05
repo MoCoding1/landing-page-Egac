@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{lucide.createIcons();document.getElementById('year').textContent=new Date().getFullYear();const qrTarget='https://wa.me/201040222086';new QRCode(document.getElementById('qr-code'),{text:qrTarget,width:86,height:86,colorDark:'#071525',colorLight:'#ffffff',correctLevel:QRCode.CorrectLevel.H});});
